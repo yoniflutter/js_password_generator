@@ -1,25 +1,21 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <div>This is sample project 🥱</div>
-        <div class="menu">
-            <ul>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        </div>
+        <form>
+            <input class="name" type="text" placeholder="Enter any character" maxlength="5" minlength="5" required>
+            <input class="number" type="text" placeholder="Enter any number" maxlength="5" minlength="5" required>
+            <input class="symbol" type="text" placeholder="Enter any symbol" maxlength="5" minlength="5" required>
+            <button type="submit">Generate</button>
+        </form>
+        <p style="color: white;" class="generated">Generated Password: </p>
     </main>
     <script src="script.js"></script>
 </body>
